@@ -10,6 +10,7 @@
     --ocean: #404BBF;
     --cornflower: #E7E9FC;
     --slate: #434455;
+    --grey: rgb(46, 47, 66);
 }
 
 *,
@@ -74,8 +75,6 @@ button {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid red;
-    outline-offset: -2px;
 }
 
 /* Header */
@@ -181,6 +180,13 @@ font-size: 16px;
     font-weight: 700;
     background: var(--navyblue);
     padding: 188px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(46, 47, 66, 0.70), rgb(46, 47, 66, 0.70)), 
+    url(../images4/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .section-container{
